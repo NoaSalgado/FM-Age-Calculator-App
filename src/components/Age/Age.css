@@ -1,0 +1,10 @@
+.age p {
+  color: var(--clr-off-black);
+  font-size: 3.5rem;
+  font-weight: var(--fw-800);
+  font-style: italic;
+}
+
+.age span {
+  color: var(--clr-purple);
+}

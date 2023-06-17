@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.form-controls-container {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  color: var(--clr-smokey-grey);
+  font-size: 0.75rem;
+  font-weight: var(--fw-700);
+  text-transform: uppercase;
+}
+
+.form-control input {
+  border: 1px solid var(--clr-light-grey);
+  border-radius: 0.5rem;
+  font: inherit;
+  font-size: 1.25rem;
+  outline: none;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  max-width: 160px;
+}
+
+.form-control input:focus {
+  border-color: var(--clr-purple);
+}
