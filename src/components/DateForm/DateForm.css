@@ -21,6 +21,10 @@
   text-transform: uppercase;
 }
 
+.form-control label.error {
+  color: var(--clr-light-red);
+}
+
 .form-control input {
   border: 1px solid var(--clr-light-grey);
   border-radius: 0.5rem;
@@ -32,6 +36,17 @@
   max-width: 160px;
 }
 
+.form-control input.error {
+  border-color: var(--clr-light-red);
+}
+
 .form-control input:focus {
   border-color: var(--clr-purple);
+}
+
+.error-message {
+  color: var(--clr-light-red);
+  font-size: 0.875rem;
+  font-style: italic;
+  font-weight: var(--fw-400);
 }
