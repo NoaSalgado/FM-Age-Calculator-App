@@ -7,7 +7,7 @@ import {
   isAValidYear,
 } from '../../helpers/validateDate';
 
-function DateForm() {
+function DateForm({ getAge }) {
   const [formData, setFormData] = useState({
     day: '',
     month: '',
@@ -37,6 +37,7 @@ function DateForm() {
       isAValidMonth(month) &&
       isAValidYear(year)
     ) {
+      getAge(day, month, year);
       setFormData({
         day: '',
         month: '',
