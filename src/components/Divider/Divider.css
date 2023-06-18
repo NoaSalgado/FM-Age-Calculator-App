@@ -32,3 +32,10 @@
 .divider-btn:hover {
   background-color: var(--clr-off-black);
 }
+
+@media screen and (min-width: 768px) {
+  .divider-btn {
+    left: 98%;
+    right: 0;
+  }
+}
